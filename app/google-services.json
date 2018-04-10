@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1070212797228",
+    "firebase_url": "https://kunchapp-7cc10.firebaseio.com",
+    "project_id": "kunchapp-7cc10",
+    "storage_bucket": "kunchapp-7cc10.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070212797228:android:c59ea8050ae31a3b",
+        "android_client_info": {
+          "package_name": "com.example.kunal.kunchapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070212797228-couc2oqtnr9dp1gos1h0nce8at2ea95m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kunal.kunchapp",
+            "certificate_hash": "30e05c390fbd65bb57cb138842d40dfaf3c2f0e1"
+          }
+        },
+        {
+          "client_id": "1070212797228-3prs3c0p9atrl7jm5fgk9s42ofkr1h1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOAyPgDMcrKJCmXLYPFIpUwBHQk3tIL9s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070212797228-3prs3c0p9atrl7jm5fgk9s42ofkr1h1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

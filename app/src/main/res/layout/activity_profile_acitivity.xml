@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_focused"
+    tools:context="com.example.kunal.kunchapp.ProfileAcitivity">
+
+    <TextView
+        android:id="@+id/profiletextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/display_name"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profileimageview"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="?android:attr/colorForeground"
+        app:srcCompat="@drawable/butterfly" />
+
+    <TextView
+        android:id="@+id/profilenooffriend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profiletextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:text="noofriends"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/profileSendrequestbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:background="@color/colorAccent"
+        android:paddingLeft="16dp"
+        android:paddingRight="11dp"
+        android:text="Send Friend Request"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textStyle="bold"
+        android:layout_below="@+id/profilenooffriend"
+        android:layout_alignStart="@+id/profiledeclinerequestbtn"
+        android:layout_alignEnd="@+id/profiledeclinerequestbtn" />
+
+    <TextView
+        android:id="@+id/profilestatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profiletextview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="city"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/profiledeclinerequestbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profileSendrequestbtn"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="5dp"
+        android:background="@color/colorAccent"
+        android:paddingLeft="5dp"
+        android:paddingRight="7dp"
+        android:text="Decline friend Request"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

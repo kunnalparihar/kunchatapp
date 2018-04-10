@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kunal.kunchapp.registeractivity">
+
+    <include
+        android:id="@+id/register_toolbar"
+        layout="@layout/app_bar_layout"
+
+        />
+
+    <Button
+        android:id="@+id/regCreateaccbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="150dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorAccent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Create Account"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="@string/display_name"
+            android:textColor="@color/colorAccent"
+            android:textColorLink="@color/common_google_signin_btn_text_dark_focused" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textInputLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorLink="@color/common_google_signin_btn_text_dark_focused" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/regCreateaccbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        app:passwordToggleEnabled="false">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColorLink="@color/common_google_signin_btn_text_dark_focused" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/register_toolbar"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="45dp"
+        android:text="Create a new Account"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp" />
+
+</RelativeLayout>

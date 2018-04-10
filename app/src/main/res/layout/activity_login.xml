@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kunal.kunchapp.LoginActivity">
+    <include layout="@layout/app_bar_layout"
+        android:id="@+id/login_toolbar"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/login_toolbar"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="55dp"
+        android:text="Login to new Account"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textInputLayoutlogin1">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayoutlogin2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerVertical="true"
+        android:layout_marginStart="41dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="5dp"
+            android:password="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textInputLayoutlogin2"
+        android:layout_marginEnd="37dp"
+        android:layout_marginTop="54dp"
+        android:background="@color/colorAccent"
+        android:text="Login"
+        android:textSize="20sp" />
+
+</RelativeLayout>

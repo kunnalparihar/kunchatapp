@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_settingbutton"
+        android:title="Account_settings" />
+    <item
+        android:id="@+id/main_alluser_button"
+        android:title="allUser" />
+    <item
+        android:id="@+id/mainLogoutbutton"
+        android:title="@string/logout" />
+</menu>

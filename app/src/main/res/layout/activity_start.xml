@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.kunal.kunchapp.StartActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Welcome to kunchapp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/start_reg_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/holo_blue_bright"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/create_a_new_account"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:id="@+id/startloginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_reg_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:background="@android:color/holo_blue_bright"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Already have an Account" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="260dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/butterfly" />
+</RelativeLayout>
